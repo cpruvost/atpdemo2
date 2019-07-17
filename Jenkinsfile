@@ -311,12 +311,5 @@ pipeline {
 				}
 			}
 		}
-		
-		stage ('Docker Build Application Image') {
-			agent any
-			steps {
-			    sh 'whoami'
-			}
-		}
     }    
 }
